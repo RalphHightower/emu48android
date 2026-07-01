@@ -58,9 +58,10 @@ LINKS
 
 CHANGES
 
-Version 3.1 (2026-04-XX)
+Version 3.1 (2026-07-01)
 
 - Fix pixel "borders" color when contrast is not the default.
+- Improve sound engine that fix CPU slowdown issue (#35).
 
 
 Version 3.0 (2025-11-21)
@@ -285,3 +286,11 @@ Note: some included files are not covered by the GPL; these include ROM image fi
 The Eric's Real scripts ("real*.kml" and "real*.bmp/png") are embedded in this application with the kind permission of Eric Rechlin.
 
 Portions of this source code (about the usb-serial) were originally created by Google Inc. in 2011-2013 and Mike Wakerly in 2013.
+
+
+FAQ
+
+* Can you do something about Android removing access permissions to the state file? I can't run the app for more than a week before the OS takes it away and then I have to create a new state file.
+  > It should be possible to prevent Android from forgetting the permissions in Google Play Store app, Account/Play Protect/App permissions removed/See apps/All apps/Emu48/"Remove permissions if app isn't used" uncheck.
+
+

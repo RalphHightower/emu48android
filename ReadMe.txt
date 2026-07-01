@@ -58,9 +58,10 @@ LINKS
 
 CHANGES
 
-Version 3.1 (2026-04-XX)
+Version 3.1 (2026-07-01)
 
 - Fix pixel "borders" color when contrast is not the default.
+- Improve sound engine that fix CPU slowdown issue (#35).
 
 
 Version 3.0 (2025-11-21)
@@ -295,7 +296,6 @@ FAQ
 
 TODO
 
-- NDK 26 does not compile
 - Patching 49G to disable 10 min auto off causes a reset when touching the Recent button and coming back to the app (with a Flashcard loaded).
 - Add an "haptic" feedback with a sound instead of a vibration (F. Giampietro).
 - Add a Cancel button to the HP48 memory card creator dialog.

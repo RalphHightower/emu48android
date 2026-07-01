@@ -4,7 +4,7 @@
  *   This file is part of Emu48
  *
  *   Copyright (C) 2005 CdB for HP
- *   Copyright (C) 2006 Christoph Gießelink
+ *   Copyright (C) 2006 Christoph Gieï¿½elink
  *
  */
 #include "pch.h"
@@ -18,7 +18,7 @@
 
 #pragma intrinsic(memset,memcpy)
 
-#include "Ops.h"
+#include "ops.h"
 
 //
 // ROM buffer access functions
